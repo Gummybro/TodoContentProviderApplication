@@ -13,3 +13,13 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Generated outputs and machine-local files
+**/build/
+*.apk
+*.aab
+*.jks
+*.keystore
+*.log
+Thumbs.db
+/.idea/deploymentTargetSelector.xml
